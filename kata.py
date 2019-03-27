@@ -60,11 +60,11 @@ def pudim(bot, update):
 
 # Operation
 
-operation = (2 + 2)
+ops = 2 + 2
 
 def operation(bot, update):
     """Send a message when the command /help is issued."""
-    update.message.reply_text(operation)
+    update.message.reply_text(ops)
 
 # End Operation
 
