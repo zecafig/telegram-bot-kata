@@ -64,7 +64,7 @@ operation = (2 + 2)
 
 def operation(bot, update):
     """Send a message when the command /help is issued."""
-    update.message.reply_text(operacao)
+    update.message.reply_text(operation)
 
 # End Operation
 
