@@ -34,7 +34,12 @@ def start(bot, update):
 
 def help(bot, update):
     """Send a message when the command /help is issued."""
-    update.message.reply_text('List commands')
+    update.message.reply_text('''\n
+    /help - shows this informations
+    /start - shows the start string
+    /pudim - shows if today is the pudim day
+    /operation - shows the operation described on ops
+    ''')
 
 def echo(bot, update):
     """Echo the user message."""
